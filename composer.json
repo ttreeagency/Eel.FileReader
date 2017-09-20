@@ -1,0 +1,19 @@
+{
+    "name": "ttree/eel-filereader",
+    "description": "EEL Helper to read file content",
+    "type": "neos-package",
+    "license": "MIT",
+    "require": {
+        "neos/flow": "3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ttree\\Eel\\FileReader\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Ttree.Eel.FileReader"
+        }
+    }
+}
